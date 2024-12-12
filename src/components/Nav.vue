@@ -1,8 +1,8 @@
 <template>
 
-  <div class="bg-green-800 text-white pl-1 pr-1 fixed top-0 w-full z-0">
+  <div class="bg-green-800 text-white  w-full z-0">
     <div class="flex mr-3 pt-2">
-      <div class="flex text-2xl ml-2">
+      <div class="flex text-2xl ml-3">
         <div @click="toggleSideBar"><i class="fa-solid fa-bars mr-2"></i></div>
         <div class="font-bold -mt-1 ml-2">amazon</div>
       </div>
@@ -52,9 +52,10 @@
       <div class="mr-2"><h1>Deliver to Ethiopia</h1></div>
       <div class=""><i class="fa-solid fa-chevron-down"></i></div>
     </div>
+  
 
   </div>
-  <div v-if="showSideBar" class="z-10 relative ">
+  <div v-if="$store.state.showSideBar" class="z-10 relative ">
     <div>
       <div class="flex text-white ">
         <div>
@@ -150,7 +151,7 @@ Amazon Home
   
 </div>
         </div>
-        <div class="" @click="toggleSideBar"><i class="fa-solid fa-xmark ml-3 mt-5 ml-5 px-1 text-3xl "></i></div>
+        <div class="" @click="toggleSideBar"><i class="fa-solid fa-xmark mt-5 ml-5 px-1 text-3xl "></i></div>
        
       </div>
     
@@ -164,7 +165,7 @@ Amazon Home
 export default {
   data() {
     return {
-      showSideBar:false,
+      //showSideBar:false,
       seeMore:false
     };
   },
@@ -172,30 +173,39 @@ export default {
     this.setupScrollListeners();
   },
   methods: {
-    toggleSideBar(){
-this.showSideBar = !this.showSideBar
-    },
+//     toggleSideBar(){
+// this.showSideBar = !this.showSideBar
+//     },
+toggleSideBar(){
+  this.$store.dispatch('toggleShowBar')
+},
+
     toggleShowMore(){
 this.seeMore = !this.seeMore
     },
     setupScrollListeners() {
       const scrollContainer = this.$refs.scrollContainer;
+    
    
 
       const scrollHandler = (evt) => {
     
         scrollContainer.scrollLeft += evt.deltaY;
+    
       };
 
       const scrollNext = () => {
         scrollContainer.scrollLeft += 100;
+     
       };
 
       const scrollBack = () => {
         scrollContainer.scrollLeft -= 100;
+    
       };
 
       scrollContainer.addEventListener("wheel", scrollHandler);
+   
 
     },
   },
