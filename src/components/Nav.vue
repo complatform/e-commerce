@@ -55,7 +55,7 @@
   
 
   </div>
-  <div v-if="$store.state.showSideBar" class="z-10 relative ">
+  <div v-if="$store.state.showSideBar" class="z-10 relative -mt-52">
     <div>
       <div class="flex text-white ">
         <div>
