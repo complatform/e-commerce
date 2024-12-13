@@ -1,18 +1,18 @@
 <template>
 
-  <div class="bg-green-800 text-white  w-full z-0">
+  <div class="bg-green-800 text-white   w-full z-0">
     <div class="flex mr-3 pt-2">
       <div class="flex text-2xl ml-3">
         <div @click="toggleSideBar"><i class="fa-solid fa-bars mr-2"></i></div>
         <div class="font-bold -mt-1 ml-2">amazon</div>
       </div>
       <div class="flex ml-36">
-        <div class="flex">
+        <router-link to="/Signin" class="flex">
           <div class="-ml-5">Sign in</div>
           <div><i class="fa-regular fa-user text-2xl ml-1"></i></div>
-        </div>
+        </router-link>
         <div class="ml-3">
-          <div class="">
+          <div class="" @click="redirectToCart">
             <i class="fa-solid fa-cart-shopping text-3xl ml-3"></i>
           </div>
         </div>
@@ -32,7 +32,7 @@
     </div>
     <div class="flex items-center">
       <div
-        class="bg-green-900 flex font-bold overflow-x-auto whitespace-nowrap pl-3 py-2"
+        class="bg-green-900 flex font-bold overflow-x-auto whitespace-nowrap pl-3 py-3 "
         ref="scrollContainer"
       >
         <div class="mr-3 inline-block">Deals</div>
@@ -57,7 +57,7 @@
   </div>
   <div v-if="$store.state.showSideBar" class="z-10 relative -mt-52">
     <div>
-      <div class="flex text-white ">
+      <div class="flex text-white h-screen">
         <div>
           <div class="bg-gray-800 h-36 w-80">
         <div>
@@ -176,6 +176,10 @@ export default {
 //     toggleSideBar(){
 // this.showSideBar = !this.showSideBar
 //     },
+redirectToCart(){
+  this.$router.push('/amazonCart')
+// this.$store.dispatch('redirectToCart')
+},
 toggleSideBar(){
   this.$store.dispatch('toggleShowBar')
 },

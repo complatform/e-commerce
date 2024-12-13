@@ -1,11 +1,11 @@
 <template>
- <Nav/>
- <div class="z-0">
-      <div>
-        <div>
+ <Nav />
+ <div class="absolute top-1/4 z-0 " >
+      <div class="">
+        <div class="">
             <a href="#">
 
-                <img src="/61WOJldGBoL._SR1236,1080_.jpg" alt="" class="w-10/11">
+                <img src="/61WOJldGBoL._SR1236,1080_.jpg" alt="" class="w-10/11 -mt-1">
             </a>
         </div>
             <div class="flex  bg-gray-200">
@@ -522,6 +522,11 @@ export default {
 components:{Nav},
 mounted(){
 this.setupScrollListeners()
+},
+computed:{
+showSideBAr(){
+  return this.$store.state.showSideBar
+}
 },
 methods:{
     setupScrollListeners() {

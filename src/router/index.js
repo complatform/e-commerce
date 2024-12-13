@@ -1,6 +1,9 @@
 import { createRouter, createWebHistory } from 'vue-router'
-// import HomeView from '../views/HomeView.vue'
+
 import Ecommerce from '../views/Ecommerce/Ecommerce'
+import Signin from '../views/Ecommerce/Signin'
+import Signup from '../views/Ecommerce/Signup'
+import amazonCart from '../views/Ecommerce/amazonCart'
 
 const routes = [
   {
@@ -8,6 +11,23 @@ const routes = [
     name: 'Ecommerce',
     component: Ecommerce
   },
+  {
+    path: '/Signin',
+    name: 'Signin',
+    component: Signin
+  },
+  {
+    path: '/Signup',
+    name: 'Signup',
+    component: Signup
+  },
+  {
+    path: '/amazonCart',
+    name: 'amazonCart',
+    component: amazonCart
+  },
+  
+  
   // {
   //   path: '/about',
   //   name: 'about',
