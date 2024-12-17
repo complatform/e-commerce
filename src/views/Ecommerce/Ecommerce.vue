@@ -3,7 +3,7 @@
  <div class="absolute top-1/4 z-0 " >
       <div class="">
         <div class="">
-            <a href="#">
+            <a href="/General">
 
                 <img src="/61WOJldGBoL._SR1236,1080_.jpg" alt="" class="w-10/11 -mt-1">
             </a>
@@ -13,21 +13,18 @@
         class=" overflow-x-auto whitespace-nowrap pl-2 py-2 -mt-16"
         ref="scrollContainer2"
       >
-        <div class="mr-2 inline-block"><a href="#"><img src="/card1.jpg" alt="" class="rounded-md w-36 "></a></div>
-        <div class="mr-2 inline-block"><a href="#"><img src="/card2.jpg" alt="" class="rounded-md w-36 "></a></div>
-        <div class="mr-2 inline-block"><a href="#"><img src="/card3.jpg" alt="" class="rounded-md w-36 "></a></div>
-        <div class="mr-2 inline-block"><a href="#"><img src="/card4.jpg" alt="" class="rounded-md w-36 "></a></div>
-        <div class="mr-2 inline-block"><a href="#"><img src="/card5.jpg" alt="" class="rounded-md w-36 "></a></div>
-        <div class="mr-2 inline-block"><a href="#"><img src="/card6.jpg" alt="" class="rounded-md w-36 "></a></div>
-        <div class="mr-2 inline-block"><a href="#"><img src="/card7.jpg" alt="" class="rounded-md w-36 "></a></div>
-        <div class="mr-2 inline-block"><a href="#"><img src="/card8.jpg" alt="" class="rounded-md w-36 "></a></div>
-        <div class="mr-2 inline-block"><a href="#"><img src="/card9.jpg" alt="" class="rounded-md w-36 "></a></div>
-        <div class="mr-2 inline-block"><a href="#"><img src="/card10.jpg" alt="" class="rounded-md w-36 "></a></div>
-        <div class="mr-2 inline-block"><a href="#"><img src="/card11.jpg" alt="" class="rounded-md w-36 "></a></div>
-        <div class="mr-2 inline-block"><a href="#"><img src="/card12.jpg" alt="" class="rounded-md w-36 "></a></div>
-        <div class="mr-2 inline-block"><a href="#"><img src="/card13.jpg" alt="" class="rounded-md w-36 "></a></div>
-        <div class="mr-2 inline-block"><a href="#"><img src="/card14.jpg" alt="" class="rounded-md w-36 "></a></div>
-        <div class="mr-2 inline-block"><a href="#"><img src="/card15.jpg" alt="" class="rounded-md w-36 "></a></div>
+        <div class="mr-2 inline-block"><a href="/Glowup"><img src="/card1.jpg" alt="" class="rounded-md w-36 "></a></div>
+        <div class="mr-2 inline-block"><a href="/CustomerLoved"><img src="/card2.jpg" alt="" class="rounded-md w-36 "></a></div>
+        <div class="mr-2 inline-block"><a href="/UpgradeGame"><img src="/card3.jpg" alt="" class="rounded-md w-36 "></a></div>
+        <div class="mr-2 inline-block"><a href="/DelightfulDeal"><img src="/card4.jpg" alt="" class="rounded-md w-36 "></a></div>
+        <div class="mr-2 inline-block"><a href="/SmallGifts"><img src="/card5.jpg" alt="" class="rounded-md w-36 "></a></div>
+        <div class="mr-2 inline-block"><a href="/ShopStorage"><img src="/card7.jpg" alt="" class="rounded-md w-36 "></a></div>
+        <div class="mr-2 inline-block"><a href="/ShopToys"><img src="/card8.jpg" alt="" class="rounded-md w-36 "></a></div>
+        <div class="mr-2 inline-block"><a href="/SweetHome"><img src="/card9.jpg" alt="" class="rounded-md w-36 "></a></div>
+        <div class="mr-2 inline-block"><a href="Pc"><img src="/card10.jpg" alt="" class="rounded-md w-36 "></a></div>
+        <div class="mr-2 inline-block"><a href="/FunFor"><img src="/card11.jpg" alt="" class="rounded-md w-36 "></a></div>
+        <div class="mr-2 inline-block"><a href="/HomeDecore"><img src="/card14.jpg" alt="" class="rounded-md w-36 "></a></div>
+        <div class="mr-2 inline-block"><a href="/ShopeHoilday"><img src="/card15.jpg" alt="" class="rounded-md w-36 "></a></div>
       </div>
     </div>
      <div class="pl-5 mt-3 border-b-2 pb-3">
@@ -35,10 +32,11 @@
             Sign in  for best experiance
         </div>
         <div class="mt-3">
-          <button class="bg-yellow-300 w-96 py-3 rounded-3xl  text-lg">Sign in securely</button>
+         
+          <button @click="GotoSignin" class="bg-yellow-300 w-96 py-3 rounded-3xl  text-lg">Sign in securely</button>
         </div>
         <div class="mt-3">
-          <a href="#" class="text-green-700">Create an account</a>
+          <a href="signup" class="text-green-700">Create an account</a>
         </div>
      </div>
      <div class="mt-3 pl-3">
@@ -46,21 +44,23 @@
       <div class="mt-2 border-b-2 pb-2 -ml-5 pl-5 pr-5">
         <div class="flex">
           <div class="mr-2">
-            <a href="#"><img src="/bottomcard1.jpg" alt="" class="rounded-md"></a>
+            <a href="/Desktop">
+              <img src="/bottomcard1.jpg" alt="" class="rounded-md">
             <p>Desktops</p>
+          </a>
           </div>
           <div>
-            <a href="#"><img src="/bottomcard2.jpg" alt="" class="rounded-md"></a>
+            <a href="/Laptop"><img src="/bottomcard2.jpg" alt="" class="rounded-md"></a>
             <p>Laptops</p>
           </div>
         </div>
         <div class="flex mt-2">
           <div class="mr-2">
-            <a href="#"><img src="/bottomcard3.jpg" alt="" class="rounded-md"></a>
+            <a href="/HardDrive"><img src="/bottomcard3.jpg" alt="" class="rounded-md"></a>
             <p>Hard Drives</p>
           </div>
           <div>
-            <a href="#"><img src="/bottomcard4.jpg" alt="" class="rounded-md"></a>
+            <a href="/PCAccessories"><img src="/bottomcard4.jpg" alt="" class="rounded-md"></a>
             <p>PC Accessories</p>
           </div>
         </div>
@@ -72,21 +72,21 @@
         <div class="mb-3 font-bold text-lg">Shoes Under $60</div>
         <div class="flex">
           <div class="mr-2">
-            <a href="#"><img src="/bottomcard5.jpg" alt="" class="rounded-md"></a>
+            <a href="/Womens"><img src="/bottomcard5.jpg" alt="" class="rounded-md"></a>
             <p>Women's</p>
           </div>
           <div>
-            <a href="#"><img src="/bottomcard6.jpg" alt="" class="rounded-md"></a>
+            <a href="/Mens"><img src="/bottomcard6.jpg" alt="" class="rounded-md"></a>
             <p>Men's</p>
           </div>
         </div>
         <div class="flex">
           <div class="mr-2">
-            <a href="#"><img src="/bottomcard7.jpg" alt="" class="rounded-md"></a>
+            <a href="/Girls"><img src="/bottomcard7.jpg" alt="" class="rounded-md"></a>
             <p>Girl's</p>
           </div>
           <div>
-            <a href="#"><img src="/bottomcard8.jpg" alt="" class="rounded-md"></a>
+            <a href="/Boys"><img src="/bottomcard8.jpg" alt="" class="rounded-md"></a>
             <p>Boy's</p>
           </div>
         </div>
@@ -98,21 +98,21 @@
         <div class="mb-3 font-bold text-lg">Fantastic Finds for Home</div>
         <div class="flex">
           <div class="mr-2">
-            <a href="#"><img src="/bottomcard9.jpg" alt="" class="rounded-md"></a>
+            <a href="/Kitchen"><img src="/bottomcard9.jpg" alt="" class="rounded-md"></a>
             <p>Kitchen</p>
           </div>
           <div>
-            <a href="#"><img src="/bottomcard10.jpg" alt="" class="rounded-md"></a>
+            <a href="/HomeDecore2"><img src="/bottomcard10.jpg" alt="" class="rounded-md"></a>
             <p>Home Decor</p>
           </div>
         </div>
         <div class="flex">
           <div class="mr-2">
-            <a href="#"><img src="/bottomcard11.jpg" alt="" class="rounded-md"></a>
+            <a href="/Dining"><img src="/bottomcard11.jpg" alt="" class="rounded-md"></a>
             <p>Dining</p>
           </div>
           <div>
-            <a href="#"><img src="/bottomcard12.jpg" alt="" class="rounded-md"></a>
+            <a href="/SmartHome"><img src="/bottomcard12.jpg" alt="" class="rounded-md"></a>
             <p>Smart Home</p>
           </div>
         </div>
@@ -124,21 +124,21 @@
         <div class="mb-3 font-bold text-lg">Shine brighter with your fashion faves</div>
         <div class="flex">
           <div class="mr-2">
-            <a href="#"><img src="/bottomcard13.jpg" alt="" class="rounded-md"></a>
+            <a href="/Jewelry"><img src="/bottomcard13.jpg" alt="" class="rounded-md"></a>
             <p>Jewelry</p>
           </div>
           <div>
-            <a href="#"><img src="/bottomcard14.jpg" alt="" class="rounded-md"></a>
+            <a href="/HandBag"><img src="/bottomcard14.jpg" alt="" class="rounded-md"></a>
             <p>Handbags</p>
           </div>
         </div>
         <div class="flex">
           <div class="mr-2">
-            <a href="#"><img src="/bottomcard15.jpg" alt="" class="rounded-md"></a>
+            <a href="/FootWear"><img src="/bottomcard15.jpg" alt="" class="rounded-md"></a>
             <p>Footwear</p>
           </div>
           <div>
-            <a href="#"><img src="/bottomcard16.jpg" alt="" class="rounded-md"></a>
+            <a href="/Beuty"><img src="/bottomcard16.jpg" alt="" class="rounded-md"></a>
             <p>Beauty</p>
           </div>
         </div>
@@ -150,21 +150,21 @@
         <div class="mb-3 font-bold text-lg">Video games $ accessories</div>
         <div class="flex">
           <div class="mr-2">
-            <a href="#"><img src="/bottomcard17.jpg" alt="" class="rounded-md"></a>
+            <a href="/Xbox"><img src="/bottomcard17.jpg" alt="" class="rounded-md"></a>
             <p>Xbox controllers</p>
           </div>
           <div>
-            <a href="#"><img src="/bottomcard18.jpg" alt="" class="rounded-md"></a>
+            <a href="/Nintendo"><img src="/bottomcard18.jpg" alt="" class="rounded-md"></a>
             <p>Nintendo</p>
           </div>
         </div>
         <div class="flex">
           <div class="mr-2">
-            <a href="#"><img src="/bottomcard19.jpg" alt="" class="rounded-md"></a>
+            <a href="/VR"><img src="/bottomcard19.jpg" alt="" class="rounded-md"></a>
             <p>VR headsets</p>
           </div>
           <div>
-            <a href="#"><img src="/bottomcard20.jpg" alt="" class="rounded-md"></a>
+            <a href="/Ps5"><img src="/bottomcard20.jpg" alt="" class="rounded-md"></a>
             <p>PS5 accessories</p>
           </div>
         </div>
@@ -176,26 +176,26 @@
         <div class="mb-3 font-bold text-lg">Unveil your radiance</div>
         <div class="flex">
           <div class="mr-2">
-            <a href="#"><img src="/bottomcard21.jpg" alt="" class="rounded-md"></a>
+            <a href="/HairCare"><img src="/bottomcard21.jpg" alt="" class="rounded-md"></a>
             <p>Hair Care</p>
           </div>
           <div>
-            <a href="#"><img src="/bottomcard22.jpg" alt="" class="rounded-md"></a>
+            <a href="/Fragrances"><img src="/bottomcard22.jpg" alt="" class="rounded-md"></a>
             <p>Fragrances</p>
           </div>
         </div>
         <div class="flex">
           <div class="mr-2">
-            <a href="#"><img src="/bottomcard23.jpg" alt="" class="rounded-md"></a>
+            <a href="/Makeup"><img src="/bottomcard23.jpg" alt="" class="rounded-md"></a>
             <p>Make-up</p>
           </div>
           <div>
-            <a href="#"><img src="/bottomcard24.jpg" alt="" class="rounded-md"></a>
+            <a href="/SkinCare"><img src="/bottomcard24.jpg" alt="" class="rounded-md"></a>
             <p>Skin Care</p>
           </div>
         </div>
         <div class="mt-3">
-          <a href="#" class="text-green-700">Shop more</a>
+          <a href="/WomensClothing" class="text-green-700">Shop more</a>
         </div>
       </div>
       <div class="mt-2 border-b-2 pb-2 -ml-5 pl-5 pr-5">
@@ -206,13 +206,13 @@
             <p>Women's clothing</p>
           </div>
           <div>
-            <a href="#"><img src="/bottomcard26.jpg" alt="" class="rounded-md"></a>
+            <a href="/WomensShoes"><img src="/bottomcard26.jpg" alt="" class="rounded-md"></a>
             <p>Women's shoes</p>
           </div>
         </div>
         <div class="flex">
           <div class="mr-2">
-            <a href="#"><img src="/bottomcard27.jpg" alt="" class="rounded-md"></a>
+            <a href="/MensClothing"><img src="/bottomcard27.jpg" alt="" class="rounded-md"></a>
             <p>Men's clothing</p>
           </div>
           <div>
@@ -529,6 +529,12 @@ showSideBAr(){
 }
 },
 methods:{
+  GotoSignin(){
+this.$router.push('/signin')
+  },
+  gotoGlowup(){
+this.$router.push('/Glowup')
+  },
     setupScrollListeners() {
 
       const scrollContainer2 = this.$refs.scrollContainer2

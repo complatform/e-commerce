@@ -17,8 +17,8 @@
             <button class="border-2 px-36 py-3 rounded-3xl font-semibold">Sign up now</button>
         </div>
         <div class="bg-gray-200 h-7 mt-5"></div>
-        <div class="mt-3 text-center">
-            <button class="bg-yellow-400 px-28 py-3 rounded-3xl font-semibold">Continue shopping</button>
+        <div class="mt-4 text-center">
+            <router-link to="/" class="bg-yellow-400 px-28 py-3 rounded-3xl font-semibold">Continue shopping</router-link>
         </div>
         </div>
     </div>

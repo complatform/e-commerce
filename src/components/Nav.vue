@@ -22,7 +22,7 @@
       <div>
         <input
           type="text"
-          class="w-96 pl-3 h-12 rounded-md text-black"
+          class="w-96 pl-3 h-12 rounded-md text-black focus:outline-pink-400"
           placeholder="Search Amazon"
         />
       </div>
@@ -55,7 +55,7 @@
   
 
   </div>
-  <div v-if="$store.state.showSideBar" class="z-10 relative -mt-52">
+  <div v-if="showSideBar" class="z-10 relative -mt-52">
     <div>
       <div class="flex text-white h-screen">
         <div>
@@ -74,7 +74,7 @@
 
 </div>
 <div class="bg-white text-black h-full">
-  <div class="flex justify-between px-5 py-5 text-lg border-b-4 border-gray-300">
+  <div class="flex justify-between px-5 py-5 text-lg border-b-4 border-gray-300" @click="redirectToHome">
     <div class="font-bold">
 Amazon Home
     </div>
@@ -165,7 +165,7 @@ Amazon Home
 export default {
   data() {
     return {
-      //showSideBar:false,
+      showSideBar:false,
       seeMore:false
     };
   },
@@ -173,16 +173,20 @@ export default {
     this.setupScrollListeners();
   },
   methods: {
-//     toggleSideBar(){
-// this.showSideBar = !this.showSideBar
-//     },
+    toggleSideBar(){
+this.showSideBar = !this.showSideBar
+    },
+redirectToHome(){
+this.$router.push('/')
+this.showSideBar = false
+},
 redirectToCart(){
   this.$router.push('/amazonCart')
 // this.$store.dispatch('redirectToCart')
 },
-toggleSideBar(){
-  this.$store.dispatch('toggleShowBar')
-},
+// toggleSideBar(){
+//   this.$store.dispatch('toggleShowBar')
+// },
 
     toggleShowMore(){
 this.seeMore = !this.seeMore
