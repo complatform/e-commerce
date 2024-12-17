@@ -202,7 +202,7 @@
         <div class="mb-3 font-bold text-lg">Step into style</div>
         <div class="flex">
           <div class="mr-2">
-            <a href="#"><img src="/bottomcard25.jpg" alt="" class="rounded-md"></a>
+            <a href="WomensClothing"><img src="/bottomcard25.jpg" alt="" class="rounded-md"></a>
             <p>Women's clothing</p>
           </div>
           <div>
@@ -216,7 +216,7 @@
             <p>Men's clothing</p>
           </div>
           <div>
-            <a href="#"><img src="/bottomcard28.jpg" alt="" class="rounded-md"></a>
+            <a href="MensShoes"><img src="/bottomcard28.jpg" alt="" class="rounded-md"></a>
             <p>Men's shoes</p>
           </div>
         </div>
