@@ -46,6 +46,38 @@ import WomensClothing from '../views/Ecommerce/WomensClothing'
 import WomensShoes from '../views/Ecommerce/WomensShoes'
 import MensClothing from '../views/Ecommerce/MensClothing'
 import MensShoes from '../views/Ecommerce/MensShoes'
+import Kitchenanddining from '../views/Ecommerce/Kitchenanddining'
+import Furniture from '../views/Ecommerce/Furniture'
+import Bedding from '../views/Ecommerce/Bedding'
+import HomeImprovement from '../views/Ecommerce/HomeImprovement'
+import Garden from '../views/Ecommerce/Garden'
+import Decor from '../views/Ecommerce/Decor'
+import Snak from '../views/Ecommerce/Snak'
+import Toys from '../views/Ecommerce/Toys'
+import Strolers from '../views/Ecommerce/Strolers'
+import Car from '../views/Ecommerce/Car'
+import Tab1 from '../views/Ecommerce/Tab1'
+import Tab2 from '../views/Ecommerce/Tab2'
+import Tab3 from '../views/Ecommerce/Tab3'
+import Tab4 from '../views/Ecommerce/Tab4'
+import DealsOnShoes from '../views/Ecommerce/DealsOnShoes'
+import Apparel from '../views/Ecommerce/Apparel'
+import Hats from '../views/Ecommerce/Hats'
+import Action from '../views/Ecommerce/Action'
+import Mugs from '../views/Ecommerce/Mugs'
+import WomenShoes1 from '../views/Ecommerce/WomenShoes1'
+import WomenShoes2 from '../views/Ecommerce/WomenShoes2'
+import WomenShoes3 from '../views/Ecommerce/WomenShoes3'
+import WomenShoes4 from '../views/Ecommerce/WomenShoes4'
+import Homandkitches from '../views/Ecommerce/Homandkitches'
+import Travel from '../views/Ecommerce/Travel'
+import NewWay from '../views/Ecommerce/NewWay'
+import Beauty from '../views/Ecommerce/Beauty'
+import Homeandkitchen from '../views/Ecommerce/Homeandkitchen'
+import Sports from '../views/Ecommerce/Sports'
+import Electronics from '../views/Ecommerce/Electronics'
+import Outdoor from '../views/Ecommerce/Outdoor'
+import Pet from '../views/Ecommerce/Pet'
 
 
 
@@ -279,6 +311,173 @@ const routes = [
     path: '/MensShoes',
     name: 'MensShoes',
     component: MensShoes
+  },
+  {
+    path: '/Kitchenanddining',
+    name: 'Kitchenanddining',
+    component: Kitchenanddining
+  },
+  {
+    path: '/Furniture',
+    name: 'Furniture',
+    component: Furniture
+  },
+  {
+    path: '/Bedding',
+    name: 'Bedding',
+    component: Bedding
+  },
+  {
+    path: '/HomeImprovement',
+    name: 'HomeImprovement',
+    component: HomeImprovement
+  },
+  {
+    path: '/Garden',
+    name: 'Garden',
+    component: Garden
+  },
+  {
+    path: '/Decor',
+    name: 'Decor',
+    component: Decor
+  },
+  {
+    path: '/Snak',
+    name: 'Snak',
+    component: Snak
+  },
+  {
+    path: '/Toys',
+    name: 'Toys',
+    component: Toys
+  },
+  {
+    path: '/Strolers',
+    name: 'Strolers',
+    component: Strolers
+  },
+  {
+    path: '/Car',
+    name: 'Car',
+    component: Car
+  },
+  {
+    path: '/Tab1',
+    name: 'Tab1',
+    component: Tab1
+  },
+  {
+    path: '/Tab2',
+    name: 'Tab2',
+    component: Tab2
+  },
+  {
+    path: '/Tab3',
+    name: 'Tab3',
+    component: Tab3
+  },
+  {
+    path: '/Tab4',
+    name: 'Tab4',
+    component: Tab4
+  },
+  {
+    path: '/DealsOnShoes',
+    name: 'DealsOnShoes',
+    component: DealsOnShoes
+  },
+  {
+    path: '/Apparel',
+    name: 'Apparel',
+    component: Apparel
+  },
+  {
+    path: '/Hats',
+    name: 'Hats',
+    component: Hats
+  },
+  {
+    path: '/Action',
+    name: 'Action',
+    component: Action
+  },
+  {
+    path: '/Mugs',
+    name: 'Mugs',
+    component: Mugs
+  },
+  {
+    path: '/WomenShoes1',
+    name: 'WomenShoes1',
+    component: WomenShoes1
+  },
+  {
+    path: '/WomenShoes2',
+    name: 'WomenShoes2',
+    component: WomenShoes2
+  },
+  
+  {
+    path: '/WomenShoes3',
+    name: 'WomenShoes3',
+    component: WomenShoes3
+  },
+  
+  {
+    path: '/WomenShoes4',
+    name: 'WomenShoes4',
+    component: WomenShoes4
+  },
+  {
+    path: '/WomenShoes4',
+    name: 'WomenShoes4',
+    component: WomenShoes4
+  },
+  {
+    path: '/Homandkitches',
+    name: 'Homandkitches',
+    component: Homandkitches
+  },
+  {
+    path: '/Travel',
+    name: 'Travel',
+    component: Travel
+  },
+  {
+    path: '/NewWay',
+    name: 'NewWay',
+    component: NewWay
+  },
+  {
+    path: '/Beauty',
+    name: 'Beauty',
+    component: Beauty
+  },
+  {
+    path: '/Homeandkitchen',
+    name: 'Homeandkitchen',
+    component: Homeandkitchen
+  },
+  {
+    path: '/Sports',
+    name: 'Sports',
+    component: Sports
+  },
+  {
+    path: '/Electronics',
+    name: 'Electronics',
+    component: Electronics
+  },
+  {
+    path: '/Outdoor',
+    name: 'Outdoor',
+    component: Outdoor
+  },
+  {
+    path: '/Pet',
+    name: 'Pet',
+    component: Pet
   },
   
   // {
