@@ -395,7 +395,7 @@
         </div>
         <div class="flex ">
           <div>
-            <a href=""><img src="/bottomcard55.jpg" alt="" class="h-32"></a>
+            <a href="/Book1"><img src="/bottomcard55.jpg" alt="" class="h-32"></a>
           </div>
           <div class="ml-6">
             <div>
@@ -407,7 +407,7 @@
         </div>
         <div class="flex mt-5">
           <div>
-            <a href=""><img src="/bottomcard56.jpg" alt="" class="h-32"></a>
+            <a href="/Book2"><img src="/bottomcard56.jpg" alt="" class="h-32"></a>
           </div>
           <div class="ml-12">
             <div>
@@ -419,7 +419,7 @@
         </div>
         <div class="flex mt-5">
           <div>
-            <a href=""><img src="/bottomcard57.jpg" alt="" class="h-32"></a>
+            <a href="/Book3"><img src="/bottomcard57.jpg" alt="" class="h-32"></a>
           </div>
           <div class="ml-10">
             <div>

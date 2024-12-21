@@ -78,6 +78,9 @@ import Sports from '../views/Ecommerce/Sports'
 import Electronics from '../views/Ecommerce/Electronics'
 import Outdoor from '../views/Ecommerce/Outdoor'
 import Pet from '../views/Ecommerce/Pet'
+import Book1 from '../views/Ecommerce/Book1'
+import Book2 from '../views/Ecommerce/Book2'
+import Book3 from '../views/Ecommerce/Book3'
 
 
 
@@ -479,6 +482,22 @@ const routes = [
     name: 'Pet',
     component: Pet
   },
+  {
+    path: '/Book1',
+    name: 'Book1',
+    component: Book1
+  },
+  {
+    path: '/Book2',
+    name: 'Book2',
+    component: Book2
+  },
+  {
+    path: '/Book3',
+    name: 'Book3',
+    component: Book3
+  },
+  
   
   // {
   //   path: '/about',
